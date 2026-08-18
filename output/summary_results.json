@@ -1,0 +1,154 @@
+{
+  "predictive_maintenance_metrics": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1_score": 0.9090909090909091,
+    "roc_auc": 0.9999865939762266
+  },
+  "energy_forecasting_metrics": {
+    "MAE": 22.625,
+    "RMSE": 42.107,
+    "MAPE": 1.16
+  },
+  "anomalies_detected_count": 3423,
+  "data_quality_findings": {
+    "missing_relationships": [],
+    "duplicate_connections": [
+      "Meter_Bldg_A1_01 -> Chiller_Bldg_A1_01",
+      "Meter_Bldg_A1_01 -> Chiller_Bldg_A1_01"
+    ],
+    "orphan_assets": [
+      "Sensor_Orphan_99"
+    ],
+    "invalid_mappings": [
+      {
+        "source": "Meter_Bldg_A1_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_A1_01",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_A1_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_A1_02",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "EnvSens_Bldg_A1_01",
+        "source_type": "Environmental Sensor",
+        "target": "Chiller_Bldg_A1_01",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_A2_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_A2_01",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_A2_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_A2_02",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_B1_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_B1_01",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_B1_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_B1_02",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_B2_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_B2_01",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_B2_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_B2_02",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_C1_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_C1_01",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_C1_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_C1_02",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_C2_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_C2_01",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      },
+      {
+        "source": "Meter_Bldg_C2_01",
+        "source_type": "Energy Meter",
+        "target": "Chiller_Bldg_C2_02",
+        "target_type": "Chiller",
+        "reason": "Low-level sensor/meter cannot parent a high-level Chiller/AHU asset"
+      }
+    ]
+  },
+  "failure_propagation_example": {
+    "failed_asset": "Chiller_Bldg_A1_01",
+    "failed_asset_type": "Chiller",
+    "impacted_assets": [
+      {
+        "asset_id": "AHU_Bldg_A1_02",
+        "asset_name": "Air Handling Unit 2 - Bldg_A1",
+        "asset_type": "AHU",
+        "distance": 1
+      },
+      {
+        "asset_id": "EnvSens_Bldg_A1_01",
+        "asset_name": "Zone Environmental Sensor 1 - Bldg_A1",
+        "asset_type": "Environmental Sensor",
+        "distance": 2
+      },
+      {
+        "asset_id": "Pump_Bldg_A1_01",
+        "asset_name": "Chilled Water Pump 1 - Bldg_A1",
+        "asset_type": "Pump",
+        "distance": 1
+      },
+      {
+        "asset_id": "AHU_Bldg_A1_01",
+        "asset_name": "Air Handling Unit 1 - Bldg_A1",
+        "asset_type": "AHU",
+        "distance": 1
+      },
+      {
+        "asset_id": "EnvSens_Bldg_A1_02",
+        "asset_name": "Zone Environmental Sensor 2 - Bldg_A1",
+        "asset_type": "Environmental Sensor",
+        "distance": 2
+      }
+    ],
+    "impact_count": 5
+  }
+}

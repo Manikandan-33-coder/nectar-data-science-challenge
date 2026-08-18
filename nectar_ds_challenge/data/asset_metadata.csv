@@ -1,0 +1,80 @@
+asset_id,site_id,building_id,asset_name,asset_type,manufacturer,installation_date,capacity,parent_asset_id
+Meter_Bldg_A1_01,Site_A,Bldg_A1,Main Energy Meter - Bldg_A1,Energy Meter,Schneider Electric,2020-03-15,1000.0,
+Chiller_Bldg_A1_01,Site_A,Bldg_A1,Chiller Unit 1 - Bldg_A1,Chiller,Daikin,2019-01-10,350.0,Meter_Bldg_A1_01
+Pump_Bldg_A1_01,Site_A,Bldg_A1,Chilled Water Pump 1 - Bldg_A1,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_A1_01
+AHU_Bldg_A1_01,Site_A,Bldg_A1,Air Handling Unit 1 - Bldg_A1,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_A1_01
+EnvSens_Bldg_A1_01,Site_A,Bldg_A1,Zone Environmental Sensor 1 - Bldg_A1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_A1_01
+AHU_Bldg_A1_02,Site_A,Bldg_A1,Air Handling Unit 2 - Bldg_A1,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_A1_01
+EnvSens_Bldg_A1_02,Site_A,Bldg_A1,Zone Environmental Sensor 2 - Bldg_A1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_A1_02
+Chiller_Bldg_A1_02,Site_A,Bldg_A1,Chiller Unit 2 - Bldg_A1,Chiller,Carrier,2019-02-10,350.0,Meter_Bldg_A1_01
+Pump_Bldg_A1_02,Site_A,Bldg_A1,Chilled Water Pump 2 - Bldg_A1,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_A1_02
+AHU_Bldg_A1_03,Site_A,Bldg_A1,Air Handling Unit 3 - Bldg_A1,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_A1_02
+EnvSens_Bldg_A1_03,Site_A,Bldg_A1,Zone Environmental Sensor 3 - Bldg_A1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_A1_03
+AHU_Bldg_A1_04,Site_A,Bldg_A1,Air Handling Unit 4 - Bldg_A1,AHU,Trane,2021-01-15,150.0,Chiller_Bldg_A1_02
+EnvSens_Bldg_A1_04,Site_A,Bldg_A1,Zone Environmental Sensor 4 - Bldg_A1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_A1_04
+Meter_Bldg_A2_01,Site_A,Bldg_A2,Main Energy Meter - Bldg_A2,Energy Meter,Schneider Electric,2020-03-15,1000.0,
+Chiller_Bldg_A2_01,Site_A,Bldg_A2,Chiller Unit 1 - Bldg_A2,Chiller,Daikin,2019-01-10,500.0,Meter_Bldg_A2_01
+Pump_Bldg_A2_01,Site_A,Bldg_A2,Chilled Water Pump 1 - Bldg_A2,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_A2_01
+AHU_Bldg_A2_01,Site_A,Bldg_A2,Air Handling Unit 1 - Bldg_A2,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_A2_01
+EnvSens_Bldg_A2_01,Site_A,Bldg_A2,Zone Environmental Sensor 1 - Bldg_A2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_A2_01
+AHU_Bldg_A2_02,Site_A,Bldg_A2,Air Handling Unit 2 - Bldg_A2,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_A2_01
+EnvSens_Bldg_A2_02,Site_A,Bldg_A2,Zone Environmental Sensor 2 - Bldg_A2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_A2_02
+Chiller_Bldg_A2_02,Site_A,Bldg_A2,Chiller Unit 2 - Bldg_A2,Chiller,Carrier,2019-02-10,500.0,Meter_Bldg_A2_01
+Pump_Bldg_A2_02,Site_A,Bldg_A2,Chilled Water Pump 2 - Bldg_A2,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_A2_02
+AHU_Bldg_A2_03,Site_A,Bldg_A2,Air Handling Unit 3 - Bldg_A2,AHU,Trane,2021-01-15,150.0,Chiller_Bldg_A2_02
+EnvSens_Bldg_A2_03,Site_A,Bldg_A2,Zone Environmental Sensor 3 - Bldg_A2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_A2_03
+AHU_Bldg_A2_04,Site_A,Bldg_A2,Air Handling Unit 4 - Bldg_A2,AHU,Honeywell,2021-01-15,150.0,Chiller_Bldg_A2_02
+EnvSens_Bldg_A2_04,Site_A,Bldg_A2,Zone Environmental Sensor 4 - Bldg_A2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_A2_04
+Meter_Bldg_B1_01,Site_B,Bldg_B1,Main Energy Meter - Bldg_B1,Energy Meter,Schneider Electric,2020-03-15,1000.0,
+Chiller_Bldg_B1_01,Site_B,Bldg_B1,Chiller Unit 1 - Bldg_B1,Chiller,Trane,2019-01-10,450.0,Meter_Bldg_B1_01
+Pump_Bldg_B1_01,Site_B,Bldg_B1,Chilled Water Pump 1 - Bldg_B1,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_B1_01
+AHU_Bldg_B1_01,Site_B,Bldg_B1,Air Handling Unit 1 - Bldg_B1,AHU,Trane,2021-01-15,150.0,Chiller_Bldg_B1_01
+EnvSens_Bldg_B1_01,Site_B,Bldg_B1,Zone Environmental Sensor 1 - Bldg_B1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_B1_01
+AHU_Bldg_B1_02,Site_B,Bldg_B1,Air Handling Unit 2 - Bldg_B1,AHU,Trane,2021-01-15,150.0,Chiller_Bldg_B1_01
+EnvSens_Bldg_B1_02,Site_B,Bldg_B1,Zone Environmental Sensor 2 - Bldg_B1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_B1_02
+Chiller_Bldg_B1_02,Site_B,Bldg_B1,Chiller Unit 2 - Bldg_B1,Chiller,Carrier,2019-02-10,350.0,Meter_Bldg_B1_01
+Pump_Bldg_B1_02,Site_B,Bldg_B1,Chilled Water Pump 2 - Bldg_B1,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_B1_02
+AHU_Bldg_B1_03,Site_B,Bldg_B1,Air Handling Unit 3 - Bldg_B1,AHU,Trane,2021-01-15,150.0,Chiller_Bldg_B1_02
+EnvSens_Bldg_B1_03,Site_B,Bldg_B1,Zone Environmental Sensor 3 - Bldg_B1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_B1_03
+AHU_Bldg_B1_04,Site_B,Bldg_B1,Air Handling Unit 4 - Bldg_B1,AHU,Trane,2021-01-15,150.0,Chiller_Bldg_B1_02
+EnvSens_Bldg_B1_04,Site_B,Bldg_B1,Zone Environmental Sensor 4 - Bldg_B1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_B1_04
+Meter_Bldg_B2_01,Site_B,Bldg_B2,Main Energy Meter - Bldg_B2,Energy Meter,Schneider Electric,2020-03-15,1000.0,
+Chiller_Bldg_B2_01,Site_B,Bldg_B2,Chiller Unit 1 - Bldg_B2,Chiller,Carrier,2019-01-10,350.0,Meter_Bldg_B2_01
+Pump_Bldg_B2_01,Site_B,Bldg_B2,Chilled Water Pump 1 - Bldg_B2,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_B2_01
+AHU_Bldg_B2_01,Site_B,Bldg_B2,Air Handling Unit 1 - Bldg_B2,AHU,Honeywell,2021-01-15,150.0,Chiller_Bldg_B2_01
+EnvSens_Bldg_B2_01,Site_B,Bldg_B2,Zone Environmental Sensor 1 - Bldg_B2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_B2_01
+AHU_Bldg_B2_02,Site_B,Bldg_B2,Air Handling Unit 2 - Bldg_B2,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_B2_01
+EnvSens_Bldg_B2_02,Site_B,Bldg_B2,Zone Environmental Sensor 2 - Bldg_B2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_B2_02
+Chiller_Bldg_B2_02,Site_B,Bldg_B2,Chiller Unit 2 - Bldg_B2,Chiller,Daikin,2019-02-10,500.0,Meter_Bldg_B2_01
+Pump_Bldg_B2_02,Site_B,Bldg_B2,Chilled Water Pump 2 - Bldg_B2,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_B2_02
+AHU_Bldg_B2_03,Site_B,Bldg_B2,Air Handling Unit 3 - Bldg_B2,AHU,Trane,2021-01-15,150.0,Chiller_Bldg_B2_02
+EnvSens_Bldg_B2_03,Site_B,Bldg_B2,Zone Environmental Sensor 3 - Bldg_B2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_B2_03
+AHU_Bldg_B2_04,Site_B,Bldg_B2,Air Handling Unit 4 - Bldg_B2,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_B2_02
+EnvSens_Bldg_B2_04,Site_B,Bldg_B2,Zone Environmental Sensor 4 - Bldg_B2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_B2_04
+Meter_Bldg_C1_01,Site_C,Bldg_C1,Main Energy Meter - Bldg_C1,Energy Meter,Schneider Electric,2020-03-15,1000.0,
+Chiller_Bldg_C1_01,Site_C,Bldg_C1,Chiller Unit 1 - Bldg_C1,Chiller,Trane,2019-01-10,450.0,Meter_Bldg_C1_01
+Pump_Bldg_C1_01,Site_C,Bldg_C1,Chilled Water Pump 1 - Bldg_C1,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_C1_01
+AHU_Bldg_C1_01,Site_C,Bldg_C1,Air Handling Unit 1 - Bldg_C1,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_C1_01
+EnvSens_Bldg_C1_01,Site_C,Bldg_C1,Zone Environmental Sensor 1 - Bldg_C1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_C1_01
+AHU_Bldg_C1_02,Site_C,Bldg_C1,Air Handling Unit 2 - Bldg_C1,AHU,Trane,2021-01-15,150.0,Chiller_Bldg_C1_01
+EnvSens_Bldg_C1_02,Site_C,Bldg_C1,Zone Environmental Sensor 2 - Bldg_C1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_C1_02
+Chiller_Bldg_C1_02,Site_C,Bldg_C1,Chiller Unit 2 - Bldg_C1,Chiller,Daikin,2019-02-10,500.0,Meter_Bldg_C1_01
+Pump_Bldg_C1_02,Site_C,Bldg_C1,Chilled Water Pump 2 - Bldg_C1,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_C1_02
+AHU_Bldg_C1_03,Site_C,Bldg_C1,Air Handling Unit 3 - Bldg_C1,AHU,Honeywell,2021-01-15,150.0,Chiller_Bldg_C1_02
+EnvSens_Bldg_C1_03,Site_C,Bldg_C1,Zone Environmental Sensor 3 - Bldg_C1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_C1_03
+AHU_Bldg_C1_04,Site_C,Bldg_C1,Air Handling Unit 4 - Bldg_C1,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_C1_02
+EnvSens_Bldg_C1_04,Site_C,Bldg_C1,Zone Environmental Sensor 4 - Bldg_C1,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_C1_04
+Meter_Bldg_C2_01,Site_C,Bldg_C2,Main Energy Meter - Bldg_C2,Energy Meter,Schneider Electric,2020-03-15,1000.0,
+Chiller_Bldg_C2_01,Site_C,Bldg_C2,Chiller Unit 1 - Bldg_C2,Chiller,Carrier,2019-01-10,500.0,Meter_Bldg_C2_01
+Pump_Bldg_C2_01,Site_C,Bldg_C2,Chilled Water Pump 1 - Bldg_C2,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_C2_01
+AHU_Bldg_C2_01,Site_C,Bldg_C2,Air Handling Unit 1 - Bldg_C2,AHU,Daikin,2021-01-15,150.0,Chiller_Bldg_C2_01
+EnvSens_Bldg_C2_01,Site_C,Bldg_C2,Zone Environmental Sensor 1 - Bldg_C2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_C2_01
+AHU_Bldg_C2_02,Site_C,Bldg_C2,Air Handling Unit 2 - Bldg_C2,AHU,Honeywell,2021-01-15,150.0,Chiller_Bldg_C2_01
+EnvSens_Bldg_C2_02,Site_C,Bldg_C2,Zone Environmental Sensor 2 - Bldg_C2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_C2_02
+Chiller_Bldg_C2_02,Site_C,Bldg_C2,Chiller Unit 2 - Bldg_C2,Chiller,Carrier,2019-02-10,500.0,Meter_Bldg_C2_01
+Pump_Bldg_C2_02,Site_C,Bldg_C2,Chilled Water Pump 2 - Bldg_C2,Pump,Grundfos,2020-06-20,75.0,Chiller_Bldg_C2_02
+AHU_Bldg_C2_03,Site_C,Bldg_C2,Air Handling Unit 3 - Bldg_C2,AHU,Trane,2021-01-15,150.0,Chiller_Bldg_C2_02
+EnvSens_Bldg_C2_03,Site_C,Bldg_C2,Zone Environmental Sensor 3 - Bldg_C2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_C2_03
+AHU_Bldg_C2_04,Site_C,Bldg_C2,Air Handling Unit 4 - Bldg_C2,AHU,Honeywell,2021-01-15,150.0,Chiller_Bldg_C2_02
+EnvSens_Bldg_C2_04,Site_C,Bldg_C2,Zone Environmental Sensor 4 - Bldg_C2,Environmental Sensor,Honeywell,2021-05-10,10.0,AHU_Bldg_C2_04
+Sensor_Orphan_99,Site_A,Bldg_A1,Orphaned Temperature Sensor,Environmental Sensor,Unknown,2018-11-11,5.0,
